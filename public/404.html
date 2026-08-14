@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Search Product Analytics</title>
+    <script>
+      // Single Page Application redirect for GitHub Pages
+      sessionStorage.redirect = location.href;
+      var repoName = '/product-analytics-dashboard';
+      var path = location.pathname;
+      if (path.startsWith(repoName)) {
+        path = path.slice(repoName.length);
+      }
+      var target = (location.origin + repoName + '/#' + (path || '/'));
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to dashboard...</p>
+  </body>
+</html>

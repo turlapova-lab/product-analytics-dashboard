@@ -1,0 +1,6 @@
+{
+  "name": "AI Search Analytics Dashboard",
+  "description": "Interactive product analytics dashboard for AI Search powered by Google Sheets data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
